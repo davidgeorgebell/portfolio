@@ -9,7 +9,10 @@ export default function Home() {
       </Head>
       <main>
         <h1 className='title'>Hello i'm David</h1>
-        <p className='description'>I like to build things.</p>
+        <p className='description'>
+          I focus on front-end web development and enjoy building things in
+          React, JavaScript and CSS.
+        </p>
       </main>
       <footer>
         <a href='https://github.com/davidgeorgebell'>Github</a>
