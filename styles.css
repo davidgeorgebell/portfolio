@@ -1,11 +1,12 @@
 :root {
-  --font-plain: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-plain: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --dark: #050505;
   --darkish: #404040;
   --lightish: #e6e6e6;
   --light: #fafafa;
   --mid: grey;
   --flow-space: 1.5rem;
+  --large-space: 4rem;
 }
 
 /* Box sizing rules */
@@ -43,6 +44,7 @@ h2,
 h3,
 h4 {
   letter-spacing: -0.5px;
+  margin-bottom: var(--flow-space);
 }
 /* Set core body defaults */
 body {
@@ -67,7 +69,6 @@ a:not([class]) {
 /* Make images easier to work with */
 img {
   max-width: 100%;
-  object-fit: cover;
   display: block;
 }
 
@@ -121,16 +122,16 @@ select {
 
 .container {
   max-width: 1200px;
-  padding: 2em;
-  margin: 4em auto;
+  padding: 2rem;
+  margin: 25px auto;
   display: grid;
   grid-template-columns: 1fr;
 }
 .hero {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  margin-bottom: var(--flow-space);
+  margin-bottom: 4em;
 }
 .intro {
   font-weight: bolder;
@@ -139,7 +140,7 @@ select {
   font-size: 2em;
 }
 .coloured {
-  color: lightcoral;
+  color: #ff5555;
 }
 .hire-button {
   border: 2px solid var(--dark);
@@ -157,4 +158,27 @@ select {
 .description {
   margin-top: var(--flow-space);
   color: var(--darkish);
+}
+.projects-wrapper {
+  display: grid;
+  gap: 4em;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: var(--large-space);
+}
+@media (max-width: 692px) {
+  .projects-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+.project-item p {
+  margin-bottom: var(--flow-space);
+}
+.project-image {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: var(--flow-space);
+}
+.projects-title {
+  margin: 2rem 0;
+  font-size: 2em;
 }

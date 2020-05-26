@@ -33,11 +33,16 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <h2>What I've been working on recently</h2>
+          <h2 className='projects-title'>What I've been working on recently</h2>
         </div>
-        <div className='projects'>
+
+        <div className='projects-wrapper'>
           <div className='project-item'>
-            <img src='/popcorn-dark.png' alt='popcornchill.com' />
+            <img
+              className='project-image'
+              src='/popcorn-dark.png'
+              alt='popcornchill.com'
+            />
             <h3>Popcorn Chill</h3>
             <p>
               A clutter free, clean movie website for searching reviews and info
@@ -45,33 +50,46 @@ export default function Home() {
             </p>
             <a href='#'>read summary</a>
           </div>
-
           <div className='project-item'>
-            <img src='/weather-light.png' alt='weather app' />
+            <img
+              className='project-image'
+              src='/weather-light.png'
+              alt='weather app'
+            />
             <h3>Drizzle</h3>
             <p>5 day weather forecast determined by users searched city.</p>
             <a href='#'>read summary</a>
           </div>
           <div className='project-item'>
-            <img src='/scramble.png' alt='scramble pad note app' />
+            <img
+              className='project-image'
+              src='/scramble.png'
+              alt='scramble pad note app'
+            />
             <h3>Scramble Pad</h3>
             <p>Simple offline note taking app.</p>
             <a href='#'>read summary</a>
           </div>
-          <h3>More about me</h3>
-          <div>IMAGE GOES HERE</div>
-          <div></div>
-          <h2>Work with me</h2>
-          <p>
-            You can reach out to me if you would like a developer. Or feel free
-            to ask any questions.
-          </p>
-          <p>
-            <a href="mailto:davidbell.dev@gmail.com?subject=Hello 👋 I'm want to hire you">
-              davidbell.dev@gmail.com
-            </a>
-          </p>
+          <div className='project-item'>
+            <img
+              className='project-image'
+              src='/scramble.png'
+              alt='scramble pad note app'
+            />
+            <h3>More about me</h3>
+            <a href='#'>more about me</a>
+          </div>
         </div>
+        <h2>Work with me</h2>
+        <p>
+          You can reach out to me if you would like a developer. Or feel free to
+          ask any questions.
+        </p>
+        <p>
+          <a href="mailto:davidbell.dev@gmail.com?subject=Hello 👋 I'm want to hire you">
+            davidbell.dev@gmail.com
+          </a>
+        </p>
       </main>
       <footer>
         <a href='https://github.com/davidgeorgebell'>Github</a>
