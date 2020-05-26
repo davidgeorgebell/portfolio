@@ -172,13 +172,30 @@ select {
 }
 .project-item p {
   margin-bottom: var(--flow-space);
+  color: var(--darkish);
 }
 .project-image {
   width: 100%;
   object-fit: cover;
   margin-bottom: var(--flow-space);
+  transition-duration: 0.3s;
+  border-radius: 4px;
+}
+.project-image:hover {
+  transform: translateY(-3px);
 }
 .projects-title {
   margin: 2rem 0;
   font-size: 2em;
+}
+.read-more {
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--dark);
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease 0s;
+}
+.read-more:hover {
+  border-bottom: 2px solid var(--dark);
 }

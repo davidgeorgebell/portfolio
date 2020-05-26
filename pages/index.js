@@ -38,46 +38,70 @@ export default function Home() {
 
         <div className='projects-wrapper'>
           <div className='project-item'>
-            <img
-              className='project-image'
-              src='/popcorn-dark.png'
-              alt='popcornchill.com'
-            />
+            <a href='#'>
+              <div className='project-image-wrapper'>
+                <img
+                  className='project-image'
+                  src='/popcorn-dark.png'
+                  alt='popcornchill.com'
+                />
+              </div>
+            </a>
             <h3>Popcorn Chill</h3>
             <p>
               A clutter free, clean movie website for searching reviews and info
               on movies.
             </p>
-            <a href='#'>read summary</a>
+            <a className='read-more' href='#'>
+              read summary
+            </a>
           </div>
           <div className='project-item'>
-            <img
-              className='project-image'
-              src='/weather-light.png'
-              alt='weather app'
-            />
+            <a href='#'>
+              <div className='project-image-wrapper'>
+                <img
+                  className='project-image'
+                  src='/weather-light.png'
+                  alt='weather app'
+                />
+              </div>
+            </a>
             <h3>Drizzle</h3>
             <p>5 day weather forecast determined by users searched city.</p>
-            <a href='#'>read summary</a>
+            <a className='read-more' href='#'>
+              read summary
+            </a>
           </div>
           <div className='project-item'>
-            <img
-              className='project-image'
-              src='/scramble.png'
-              alt='scramble pad note app'
-            />
+            <a className='read-more' href='#'>
+              <div className='project-image-wrapper'>
+                <img
+                  className='project-image'
+                  src='/scramble.png'
+                  alt='scramble pad note app'
+                />
+              </div>
+            </a>
             <h3>Scramble Pad</h3>
             <p>Simple offline note taking app.</p>
-            <a href='#'>read summary</a>
+            <a className='read-more' href='#'>
+              read summary
+            </a>
           </div>
           <div className='project-item'>
-            <img
-              className='project-image'
-              src='/scramble.png'
-              alt='scramble pad note app'
-            />
+            <a className='read-more' href='#'>
+              <div className='project-image-wrapper'>
+                <img
+                  className='project-image'
+                  src='/scramble.png'
+                  alt='scramble pad note app'
+                />
+              </div>
+            </a>
             <h3>More about me</h3>
-            <a href='#'>more about me</a>
+            <a className='read-more' href='#'>
+              more about me
+            </a>
           </div>
         </div>
         <h2>Work with me</h2>
