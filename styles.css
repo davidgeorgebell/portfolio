@@ -54,6 +54,10 @@ body {
   font-family: var(--font-plain);
   color: var(--dark);
 }
+p {
+  color: var(--darkish);
+  margin-bottom: var(--flow-space);
+}
 
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
@@ -97,22 +101,22 @@ select {
 
 @media (min-width: 640px) {
   body {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 @media (min-width: 768px) {
   body {
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 @media (min-width: 1024px) {
   body {
-    font-size: 21px;
+    font-size: 19px;
   }
 }
 @media (min-width: 1280px) {
   body {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -129,16 +133,15 @@ select {
 }
 .hero {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin-bottom: 4em;
+  grid-template-columns: 1fr;
+  margin-bottom: 6em;
+  margin-top: 7em;
 }
 .intro {
   font-weight: bolder;
+  font-size: 2rem;
 }
-.job-title {
-  font-size: 2em;
-}
+
 .coloured {
   color: #ff5555;
 }
@@ -172,7 +175,6 @@ select {
 }
 .project-item p {
   margin-bottom: var(--flow-space);
-  color: var(--darkish);
 }
 .project-image {
   width: 100%;
@@ -185,17 +187,55 @@ select {
   transform: translateY(-3px);
 }
 .projects-title {
-  margin: 2rem 0;
+  margin-bottom: var(--large-space);
   font-size: 2em;
 }
 .read-more {
+  text-transform: uppercase;
+}
+.styled-link {
   text-decoration: none;
   font-weight: 700;
-  text-transform: uppercase;
   color: var(--dark);
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.3s ease 0s;
 }
-.read-more:hover {
+.styled-link:hover {
   border-bottom: 2px solid var(--dark);
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: var(--large-space);
+}
+.hire-me {
+  margin-bottom: var(--large-space);
+}
+.hire-me p {
+  max-width: 550px;
+}
+.hire-me-title {
+  font-size: 2em;
+}
+
+/* ===========
+Footer
+============ */
+
+footer {
+  margin-top: var(--large-space);
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 40px;
+  height: 38px;
+}
+.footer-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--dark);
 }
