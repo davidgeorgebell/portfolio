@@ -38,7 +38,7 @@ const Popcorn = () => {
           <li>JavaScript</li>
           <li>CSS</li>
         </ul>
-        <h2>Things I enjoyed whilst building this</h2>
+        <h2>What I enjoyed whilst building this</h2>
         <ul>
           <li>Creating a light/dark theme that persists preference for user</li>
           <li>Using a re usable hook to easily manage data fetching</li>
