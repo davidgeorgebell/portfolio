@@ -32,28 +32,17 @@ const Popcorn = () => {
         <h2>Built With</h2>
         <ul>
           <li>React with Hooks</li>
-          <li>React Context for state management</li>
+          <li>React Context</li>
           <li>React Router</li>
           <li>TMDB API (The movie database)</li>
           <li>JavaScript</li>
           <li>CSS</li>
         </ul>
-
-        <div className='project-image-wrapper page-image'>
-          <img
-            className='project-image'
-            src='/popcorn-dark.png'
-            alt='popcornchill.com'
-          />
-        </div>
         <h2>Things I enjoyed whilst building this</h2>
         <ul>
+          <li>Creating a light/dark theme that persists preference for user</li>
           <li>Using a re usable hook to easily manage data fetching</li>
           <li>Using Reacts Context for state management</li>
-          <li>
-            Being creative with layouts and styling design inspired by art I
-            enjoy
-          </li>
         </ul>
         <div className='project-image-wrapper page-image'>
           <img
