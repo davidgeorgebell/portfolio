@@ -1,12 +1,17 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
     <footer>
       <div className='footer-wrapper'>
-        <div>
-          <img className='footer-logo' src='/logo-1.svg' alt='logo' />
-        </div>
+        <Link href='/'>
+          <a>
+            <div>
+              <img className='footer-logo' src='/logo-1.svg' alt='logo' />
+            </div>
+          </a>
+        </Link>
         <div className='footer-links'>
           <a className='styled-link' href='https://github.com/davidgeorgebell'>
             Github

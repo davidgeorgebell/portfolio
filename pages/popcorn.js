@@ -4,18 +4,9 @@ import Layout from '../components/Layout';
 const Popcorn = () => {
   return (
     <Layout>
-      <div className='project-page-wrapper'>
+      <div className='project-page-wrapper container'>
         <h1>Popcorn Chill</h1>
         <p>A clean minimalist alternative to IMDB or Rotten Tomatoes.</p>
-        <h2>Built With</h2>
-        <ul>
-          <li>React with Hooks</li>
-          <li>React Context for state management</li>
-          <li>React Router</li>
-          <li>TMDB API (The movie database)</li>
-          <li>JavaScript</li>
-          <li>CSS</li>
-        </ul>
         <div className='project-buttons'>
           <div>
             <a className='styled-link' href='popcornchill.com'>
@@ -31,7 +22,24 @@ const Popcorn = () => {
             </a>
           </div>
         </div>
-        <div className='project-image-wrapper'>
+        <div className='project-image-wrapper page-image'>
+          <img
+            className='project-image'
+            src='/popcorn-3.png'
+            alt='popcornchill.com'
+          />
+        </div>
+        <h2>Built With</h2>
+        <ul>
+          <li>React with Hooks</li>
+          <li>React Context for state management</li>
+          <li>React Router</li>
+          <li>TMDB API (The movie database)</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
+        </ul>
+
+        <div className='project-image-wrapper page-image'>
           <img
             className='project-image'
             src='/popcorn-dark.png'
@@ -47,6 +55,13 @@ const Popcorn = () => {
             enjoy
           </li>
         </ul>
+        <div className='project-image-wrapper page-image'>
+          <img
+            className='project-image'
+            src='/popcorn-light.png'
+            alt='popcornchill.com'
+          />
+        </div>
         <h2>Description</h2>
         <p>
           I wanted to create a clutter free, clean movie website. A way to find
@@ -54,6 +69,20 @@ const Popcorn = () => {
           of other movie review sites. The website is responsive with a dark and
           light theme for users choice.
         </p>
+        <div className='project-image-wrapper page-image'>
+          <img
+            className='project-image'
+            src='/popcorn-1.png'
+            alt='popcornchill.com'
+          />
+        </div>
+        <div className='project-image-wrapper page-image'>
+          <img
+            className='project-image '
+            src='/popcorn-2.png'
+            alt='popcornchill.com'
+          />
+        </div>
       </div>
     </Layout>
   );

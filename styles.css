@@ -247,12 +247,17 @@ Project pages
 =========== */
 
 .project-page-wrapper {
-  margin: 4em 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .project-buttons {
   display: flex;
-  margin-bottom: 4em;
+  font-size: 1.4em;
 }
 .styled-link {
   margin-right: 1em;
+}
+.page-image {
+  margin: 3em 0;
 }
