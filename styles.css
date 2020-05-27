@@ -167,7 +167,7 @@ select {
   display: grid;
   gap: 4em;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: var(--large-space);
+  margin-bottom: 8em;
 }
 @media (max-width: 692px) {
   .projects-wrapper {
@@ -212,7 +212,7 @@ select {
   margin-bottom: var(--large-space);
 }
 .hire-me {
-  margin-bottom: var(--large-space);
+  margin-bottom: 8em;
 }
 .hire-me p {
   max-width: 550px;

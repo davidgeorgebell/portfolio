@@ -13,7 +13,11 @@ const Footer = () => {
           </a>
         </Link>
         <div className='footer-links'>
-          <a className='styled-link' href='https://github.com/davidgeorgebell'>
+          <a
+            className='styled-link'
+            href='https://github.com/davidgeorgebell'
+            target='_blank'
+            rel='noopener noreferrer'>
             Github
           </a>
         </div>
