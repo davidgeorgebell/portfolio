@@ -88,6 +88,24 @@ export default function Home() {
                 </Link>
               </div>
               <div className='project-item'>
+                <Link href='/bodyweightok'>
+                  <a className='styled-link read-more'>
+                    <div className='project-image-wrapper'>
+                      <img
+                        className='project-image'
+                        src='/body2.png'
+                        alt='bodyweight ok workout website'
+                      />
+                    </div>
+                  </a>
+                </Link>
+                <h3>Bodyweight Ok</h3>
+                <p>Bodyweight workouts for busy people.</p>
+                <Link href='/bodyweightok'>
+                  <a className='styled-link read-more'>read summary</a>
+                </Link>
+              </div>
+              <div className='project-item'>
                 <Link href='/weather'>
                   <a>
                     <div className='project-image-wrapper'>
@@ -105,6 +123,7 @@ export default function Home() {
                   <a className='styled-link read-more'>read summary</a>
                 </Link>
               </div>
+
               <div className='project-item'>
                 <Link href='/scramble'>
                   <a className='styled-link read-more'>
@@ -119,32 +138,17 @@ export default function Home() {
                 </Link>
                 <h3>Scramble Pad</h3>
                 <p>Simple offline note taking app.</p>
-                <Link href='scramble'>
+                <Link href='/scramble'>
                   <a className='styled-link read-more'>read summary</a>
                 </Link>
               </div>
             </div>
-            {/* <div className='project-item'>
-            <a className='styled-link read-more' href='#'>
-              <div className='project-image-wrapper'>
-                <img
-                  className='project-image'
-                  src='/scramble.png'
-                  alt='scramble pad note app'
-                />
-              </div>
-            </a>
-            <h3>More about me</h3>
-            <a className='styled-link read-more' href='#'>
-              more about me
-            </a>
-          </div> */}
           </div>
           <h2 className='hire-me-title'>If you would like to work with me</h2>
           <div className='hire-me'>
             <p>
-              You can reach out to me if you would like a developer for apps,
-              websites or have a question.
+              You can reach out to me if you have any questions, need a website
+              or app building for your business.
             </p>
             <p>
               <a

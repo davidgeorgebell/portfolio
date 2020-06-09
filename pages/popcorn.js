@@ -9,7 +9,11 @@ const Popcorn = () => {
         <p>A clean minimalist alternative to IMDB or Rotten Tomatoes.</p>
         <div className='project-buttons'>
           <div>
-            <a className='styled-link' href='popcornchill.com'>
+            <a
+              className='styled-link'
+              href='https://popcornchill.com'
+              target='_blank'
+              rel='noopener noreferrer'>
               Visit Site
             </a>
           </div>
@@ -17,7 +21,9 @@ const Popcorn = () => {
           <div>
             <a
               className='styled-link'
-              href='https://github.com/davidgeorgebell/popcornchill.com'>
+              href='https://github.com/davidgeorgebell/popcornchill.com'
+              target='_blank'
+              rel='noopener noreferrer'>
               View Code
             </a>
           </div>
@@ -27,6 +33,8 @@ const Popcorn = () => {
             className='project-image'
             src='/popcorn-3.png'
             alt='popcornchill.com'
+            target='_blank'
+            rel='noopener noreferrer'
           />
         </div>
         <h2>Built With</h2>

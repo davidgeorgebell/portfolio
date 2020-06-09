@@ -1,17 +1,17 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const scramble = () => {
+const bodyweightok = () => {
   return (
     <Layout>
       <div className='project-page-wrapper container'>
-        <h1>Scramble Pad</h1>
-        <p>A simple online notepad for quick easy notes. Saved locally</p>
+        <h1>BodyweightOk</h1>
+        <p>Bodyweight workouts for busy people.</p>
         <div className='project-buttons'>
           <div>
             <a
               className='styled-link'
-              href='https://admiring-kalam-77b9af.netlify.app/'
+              href='https://bodyweightok.now.sh/'
               target='_blank'
               rel='noopener noreferrer'>
               Visit Site
@@ -21,7 +21,7 @@ const scramble = () => {
           <div>
             <a
               className='styled-link'
-              href='https://github.com/davidgeorgebell/scramble-pad'
+              href='https://github.com/davidgeorgebell/bodyweightok-nextjs-react-airtable'
               target='_blank'
               rel='noopener noreferrer'>
               View Code
@@ -31,29 +31,40 @@ const scramble = () => {
         <div className='project-image-wrapper page-image'>
           <img
             className='project-image'
-            src='/scramble.png'
-            alt='scramble app'
+            src='/body1.png'
+            alt='bodyweightok app'
           />
         </div>
         <h2>Built With</h2>
         <ul>
-          <li>Gatsbyjs</li>
+          <li>Nextjs</li>
           <li>React</li>
-          <li>JavaScript</li>
+          <li>Airtable</li>
           <li>CSS</li>
         </ul>
+        <div className='project-image-wrapper page-image'>
+          <img
+            className='project-image'
+            src='/body2.png'
+            alt='bodyweightok app'
+          />
+        </div>
         <h2>What I enjoyed whilst building this</h2>
         <ul>
-          <li>Building something I will use daily</li>
-          <li>Using Gatsbyjs</li>
+          <li>
+            Learning how to use Airtable for a simple database anyone can
+            update.
+          </li>
+          <li>Using Nextjs</li>
         </ul>
         <h2>Description</h2>
         <p>
-          A clutter free space for getting notes down quickly. Saved to local
-          storage. Virtual notepad for scribbling things down.
+          Bodyweight workouts allowing users to filter through collection. Pages
+          are statically generated using Nextjs(React). I used Airtable as a
+          database as it's simple and easy to use.
         </p>
       </div>
     </Layout>
   );
 };
-export default scramble;
+export default bodyweightok;

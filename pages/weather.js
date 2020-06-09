@@ -12,7 +12,9 @@ const weather = () => {
           <div>
             <a
               className='styled-link'
-              href='https://loving-hoover-a78c9b.netlify.app/'>
+              href='https://loving-hoover-a78c9b.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'>
               Visit Site
             </a>
           </div>
@@ -20,7 +22,9 @@ const weather = () => {
           <div>
             <a
               className='styled-link'
-              href='https://github.com/davidgeorgebell/weather-app-react'>
+              href='https://github.com/davidgeorgebell/weather-app-react'
+              target='_blank'
+              rel='noopener noreferrer'>
               View Code
             </a>
           </div>
